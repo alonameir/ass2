@@ -11,13 +11,10 @@ public class TestVersionMonitor {
     @Before
     public void setUp() throws Exception {
         monitor= new VersionMonitor();
-        monitor.vers=0;
     }
 
     @After
-    public void tearDown() throws Exception {
-        monitor.vers=0;
-    }
+    public void tearDown() throws Exception { monitor.vers=0; }
 
     @Test
     public void testGetVersion() {
