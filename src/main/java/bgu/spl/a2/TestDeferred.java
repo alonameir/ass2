@@ -33,8 +33,7 @@ public class TestDeferred {
     public void testGetException(){
         boolean thrown=false;
         try{
-            Integer ans= 2;
-            def.resolve(ans);
+            def.get();
             fail("Exception expected!!!");
         }
         catch (Exception e){
