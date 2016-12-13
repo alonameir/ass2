@@ -16,7 +16,7 @@ import java.util.LinkedList;
  * @param <T> the result type
  */
 public class Deferred<T> {
-
+//test
     protected boolean isFinished;
     protected T value;
     protected LinkedList<Runnable> listRun;
