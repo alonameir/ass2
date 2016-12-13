@@ -28,7 +28,7 @@ public class TestDeferred {
         def.resolve(ans);
         assertEquals(ans, def.get());
     }
-
+//test
     @Test
     public void testGetException(){
         boolean thrown=false;
