@@ -11,6 +11,8 @@ public class TestVersionMonitor {
     @Before
     public void setUp() throws Exception {
         monitor= new VersionMonitor();
+        monitor.vers=0;
+
     }
 
     @After
